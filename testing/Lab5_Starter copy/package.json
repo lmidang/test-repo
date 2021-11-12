@@ -1,0 +1,10 @@
+{
+    "name": "style-guide",
+    "version": "0.0.1",
+    "description": "My style guide",
+    "author": "",
+    "license": "",
+    "devDependencies": {
+        "documentjs": "^0.5.5"
+    }
+}

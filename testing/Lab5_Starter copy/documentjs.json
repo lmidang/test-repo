@@ -1,0 +1,8 @@
+{
+    "sites": {
+        "styles": {
+            "glob": "assets/styles/**/*.{css,less,md}",
+            "dest": "styleguide"
+        }
+    }
+}
