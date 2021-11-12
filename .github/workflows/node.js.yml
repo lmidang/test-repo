@@ -36,7 +36,9 @@ jobs:
           echo test, and deploy your project.
           
       - name: Run documentcss
-        run: ./node_modules/.bin/documentjs
+        run: |
+          cd testing/Lab5_Starter\ copy/
+          ./node_modules/.bin/documentjs
          
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@4.0.0
