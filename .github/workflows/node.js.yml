@@ -38,7 +38,7 @@ jobs:
       - name: Run documentcss
         run: |
           cd testing/Lab5_Starter\ copy/
-          sudo ./node_modules/.bin/documentjs
+          ./node_modules/.bin/documentjs
          
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@4.0.0
